@@ -1,7 +1,19 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?cd79zi');
+    src:    url('fonts/icomoon.eot?cd79zi#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?cd79zi') format('truetype'),
+        url('fonts/icomoon.woff?cd79zi') format('woff'),
+        url('fonts/icomoon.svg?cd79zi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body{
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: #f6f6f6;
     background: url(assets/background-img/bg.jpg);
     background-size: cover;
@@ -10,7 +22,7 @@ body{
 }
 #container-top a i{
 color: black;
-font-size: 15px;
+font-size: 12px;
 }
 #container-top a:hover i{
     color: #9C8156;
@@ -35,6 +47,7 @@ nav ul li {
 }
 nav ul li a{
     letter-spacing: 1px;
+    font-size: 14px;
 }
 nav ul li:nth-child(1) a{
     color: #9C8156;
@@ -78,7 +91,7 @@ color: #9C8156;
 
 
 .carousel-text h1{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 400;
 }
 
@@ -198,12 +211,13 @@ section#blog-posts .row .section-1  .my-card .fist-text-body-section h5 a{
 
 section#blog-posts .row .section-1  .my-card .fist-text-body-section h5{
   font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     
 }
 section#blog-posts .row .section-1  .my-card .fist-text-body-section p{
     letter-spacing: 1px;
     color: rgb(148, 148, 148);
+    font-size: 14px;
 }
 section#blog-posts .row .section-1  .my-card .fist-text-body-section h5 a:hover{
 color: #9C8156;
@@ -218,7 +232,7 @@ section#blog-posts .row  .section-1 .my-card .second-text-body-section #link a{
     text-decoration: none;
     color: rgba(128, 128, 128, 0.63);
     transition: all .2s ease-in .2s;
-    font-size: 14px;
+    font-size: 13px;
 }
 section#blog-posts .row  .section-1 .my-card .second-text-body-section #link a:hover{
     color: #9C8156;
@@ -424,7 +438,7 @@ section#blog-posts .row  .section-2 .about-card  h5 img{
     color: #9C8156;
     text-decoration: none;
     font-size: 12px;
-    padding: 5px 10px;
+    padding: 3px 8px;
 }
 #btn-tags #btn-tags-links .rows .cols:hover a{
     color: black;
@@ -494,6 +508,7 @@ section#blog-posts .row  .section-2 .about-card  h5 img{
 }
 #newsletter-cont #form-text #inner-text span{
     color: gray;
+    font-size: 13px;
 }
 #newsletter-cont form input{
     background-color:#f6f6f6;
